@@ -1,5 +1,5 @@
-import { SAVE_COMMENTS, FETCH_COMMENTS } from './types'
-import axios from 'axios'
+import { SAVE_COMMENTS } from './types'
+// import axios from 'axios'
 export const saveComments = comment => {
   return {
     type: SAVE_COMMENTS,
